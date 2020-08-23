@@ -1,0 +1,6 @@
+@import 'reset.css';
+@import 'card.css';
+
+body{
+    background-color: #747abe;
+}
