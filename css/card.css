@@ -1,12 +1,6 @@
-.card-wrapper{
-    width:auto;
-    height:850px;
-    position:relative;
-}
-
 .card{
-    width: 600px;
-    height: 800px;
+    width:600px;
+    height:800px;
     position:absolute;
     left:50%;
     top:50%;
