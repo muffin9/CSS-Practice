@@ -1,19 +1,32 @@
-.container{
-    width: auto;
-    height: 850px;
+.card-wrapper{
+    width:auto;
+    height:850px;
+    position:relative;
 }
 
 .card{
-    width: 400px;
-    height: 600px;
-    margin: 0 auto;
-    background-color:red;
-    border: 5px solid black;
+    width: 600px;
+    height: 800px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    background-color:#edde97;
+    border: 5px solid orange;
+    border-radius:10px;
 }
 
-.sub-card{
+.card-header{
     width:200px;
     height:200px;
-    background-color:blue;
-    border: 5px dashed orange;
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%, -10%);
+    background: url('../image/profile_bono.png');
+    background-size:cover;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    cursor:pointer;
 }
