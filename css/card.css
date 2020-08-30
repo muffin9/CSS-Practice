@@ -1,4 +1,4 @@
-.card{
+.card-wrapper{
     width:600px;
     height:800px;
     position:absolute;
@@ -10,17 +10,81 @@
     border-radius:10px;
 }
 
+.card-header-wrapper{
+    height:245px;
+    padding-top:20px;
+    box-sizing: border-box;
+    background-color:skyblue;
+}
+
+
 .card-header{
-    width:200px;
-    height:200px;
+     width:200px;
+     border: 2px solid white;
+     border-radius:50%;
+     padding:10px;
+     margin:0 auto;
+}
+
+.card-header-img{
+     width:200px;
+     height:200px;
+     background: url('../image/profile_bono.png');
+     background-size:cover;
+     cursor:pointer;
+     border-radius:50%;
+}
+
+.card-title-wrapper{
+    position:relative;
+    height:150px;
+    background-color:red;
+}
+
+.card-title{
+    width:70%;
     position:absolute;
-    top:10%;
+    top:50%;
     left:50%;
-    transform:translate(-50%, -10%);
-    background: url('../image/profile_bono.png');
-    background-size:cover;
-    border: 10px solid white;
-    border-radius: 50%;
-    margin: 0 auto;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    background-color:pink;
+    font-size:30px;
+}
+
+.card-content-wrapper{
+    position:relative;
+    height:150px;
+    background-color:lime;
+}
+
+.card-content{
+   width:100%;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+
+.card-sns-wrapper{
+    height:130px;
+    background-color:purple;
+}
+
+.card-footer-wrapper{
+    position:relative;
+    height:150px;
+    background-color:blue;
+}
+
+.card-button{
+    width:180px;
+    height:35px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
     cursor:pointer;
+    outline:0;
+    border:0;
 }
