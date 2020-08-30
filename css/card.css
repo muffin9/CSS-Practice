@@ -17,7 +17,6 @@
     background-color:skyblue;
 }
 
-
 .card-header{
      width:200px;
      border: 2px solid white;
@@ -73,7 +72,7 @@
 
 .card-footer-wrapper{
     position:relative;
-    height:150px;
+    height:125px;
     background-color:blue;
 }
 
