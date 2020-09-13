@@ -1,5 +1,6 @@
 @import 'reset.css';
 @import 'card.css';
+@import 'diary.css';
 
 body{
     background: url('../image/bg-marvel.jpg') no-repeat;
