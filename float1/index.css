@@ -16,18 +16,36 @@
   }
   
 /* ▼ WHERE YOUR CODE BEGINS */
-section > h1 {
-    color: brown;
+
+.tab-menu {
+  max-width: 540px;
+  padding-left: 0;
+  border-bottom: 1px solid #E5EAEF;
 }
 
-.active {
-  color: red;
+.tab-menu::after {
+  display: block;
+  content: '';
+  clear: left;
 }
 
-.active ~ li {
-  color: yellow;
+.tab-menu-item {
+  float: left;
+  margin-right: 16px;
+  list-style-type: none;
 }
 
-.active + li {
-  color: blue;
+.tab-menu-item.selected {
+  border-bottom: 2px solid #2860E1;
+}
+
+.tab-menu-item a {
+  display:inline-block;
+  padding: 16px 20px;
+}
+
+
+.tab-menu-item.selected a{
+  color: #2860E1;
+  font-weight: 500;
 }
