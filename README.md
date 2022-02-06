@@ -247,3 +247,5 @@ focus : 특정 요소를 포커싱 된 상태가 될 때 동작하는 가상 연
 👀 어떤 선택자를 우선으로 적용할까 ?  
 
 !important > inline style > id > class > type
+
+👀 img 태그 속성에 width 값을 100%을 주게되면 부모 속성의 width 값을 따라간다.

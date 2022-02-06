@@ -28,4 +28,3 @@ relative는 자기자신이 기준점이 되는데, float와 붕뜬 속성은 �
 fixed는 viewport 사이즈 기준으로 기준점을 잡는다.  
 
 `viewport ? 브라우저 창의 전체 크기  `
-
