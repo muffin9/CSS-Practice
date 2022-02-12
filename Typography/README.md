@@ -164,4 +164,16 @@ https://github.com/innks/NanumSquareRound
 
 ![NanumSquareRound_result](NanumSquareRound_result.png)  
 
-> 여기서 개발자 도구 하단에 NanumSquareRound Regular—Network resource 문구를 볼 수 있는데 해당 문구는 내가 해당 폰트를 직접 제공했다는걸 의미한다.
+> 여기서 개발자 도구 하단에 NanumSquareRound Regular—Network resource 문구를 볼 수 있는데 해당 문구는 내가 해당 폰트를 직접 제공했다는걸 의미한다.  
+
+---
+
+👀 form과 관련된 요소들(button, input, textarea) body에 font-family를 적용해도 적용이 안된다. 따라서 따로 선언해주자
+
+```css
+button,
+input,
+textarea {
+    font-family: 'Muffin', sans-serif;
+}
+```
