@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Muffin";
+    font-style: normal;
+    font-weight: 300;
+    /* url - format : 각 브라우저에 맞게 폰트 지원 지정 */  
+    src: url('./assets/font/NanumSquareRoundL.eot');
+    src: url('./assets/font/NanumSquareRoundL.eot?#iefix') format('embedded-opentype'),
+         url('./assets/font/NanumSquareRoundL.woff2') format('woff2'),  
+         url('./assets/font/NanumSquareRoundL.woff') format('woff'),
+         url('./assets/font/NanumSquareRoundL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Muffin";
+    font-style: normal;
+    font-weight: 400;
+    /* url - format : 각 브라우저에 맞게 폰트 지원 지정 */  
+    src: url('./assets/font/NanumSquareRoundR.eot');
+    src: url('./assets/font/NanumSquareRoundR.eot?#iefix') format('embedded-opentype'),
+         url('./assets/font/NanumSquareRoundR.woff2') format('woff2'),  
+         url('./assets/font/NanumSquareRoundR.woff') format('woff'),
+         url('./assets/font/NanumSquareRoundR.ttf') format('truetype');
+}
